@@ -868,6 +868,7 @@ dependencies = [
  "anyhow",
  "clap",
  "jsonrpsee",
+ "librime-sys",
  "rime-api",
  "serde",
  "serde_json",

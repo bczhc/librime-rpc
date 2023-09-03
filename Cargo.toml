@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 clap = "4.3.23"
+librime-sys = "0.4.0"
 rime-api = "0.10.1"
 jsonrpsee = { version = "0.20.0", features = ["full"] }
 anyhow = "1.0.75"
