@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 clap = { version = "4.3.23", features = ["derive"] }
 librime-sys = "0.4.0"
-rime-api = "0.10.1"
+rime-api = { version = "0.11.0", features = ["serde"] }
 jsonrpsee = { version = "0.20.0", features = ["full"] }
 anyhow = "1.0.75"
 serde = { version = "1.0.185", features = ["derive", "serde_derive"] }

@@ -1186,14 +1186,16 @@ checksum = "dbb5fb1acd8a1a18b3dd5be62d25485eb770e05afb408a9627d14d451bae12da"
 
 [[package]]
 name = "rime-api"
-version = "0.10.1"
+version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a83ff570c213867780e01e078dcdb126d8fd5cdae9902f1ac3286852a3f722f2"
+checksum = "e8c8f4cc2482796566cb84f8577397dee56201091d672c441673139eb2ca815f"
 dependencies = [
  "cstr",
  "home",
  "librime-sys",
  "once_cell",
+ "serde",
+ "serde_json",
  "thiserror",
 ]
 

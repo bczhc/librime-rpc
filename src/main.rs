@@ -71,6 +71,7 @@ async fn start_server(port: u16) -> anyhow::Result<ServerHandle> {
         };
     }
     register_method!("version", methods::version);
+    register_method!("simulate_key_sequence", methods::simulate_key_sequence);
 
     let handle = server.start(module);
 
