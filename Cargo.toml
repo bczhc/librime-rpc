@@ -1,0 +1,13 @@
+[package]
+name = "librime-rpc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "4.3.23"
+rime-api = "0.10.1"
+jsonrpsee = { version = "0.20.0", features = ["full"] }
+anyhow = "1.0.75"
+serde = { version = "1.0.185", features = ["derive", "serde_derive"] }
+serde_json = { version = "1.0.105" }
+tokio = { version = "1.32.0", features = ["macros", "rt-multi-thread"] }
